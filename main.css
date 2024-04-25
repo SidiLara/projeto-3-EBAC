@@ -1,59 +1,56 @@
 .body {
-
     font-family: Roboto, sans-serif;
 }
 
-.carousel-slide{
-    margin: 0 auto;
-}
-
 .navbar {
-    background-color: #e15f41;
+    background-color: #000000;
 }
 
 #cabecalho .nav .nav-link.active {
-    background-color: #fff;
-    color: #e15f41;
+    background-color: #ff0000;
+    color: #FFFFFF;
 }
 
 #cabecalho .nav .nav-link,
-.navbar-brand,
-.navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
-    color: #fff;
+.nav-revenda .nav-link.active:hover {
+    color: #ff0000;
 }
 
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
 
 .navbar-toggler {
     background-color: #ffeae6;
     color: #ffeae6;
 }
 
-.navbar-toggler:focus{
+.navbar-toggler:focus {
     color: #ffeae6;
 }
 
 .section-title {
-    font-family: Pacifico, cursive;
+    font-family: "Bebas Neue", sans-serif;
 }
 
-#sobre-o-restaurante,
-#cardapio {
-    background-color: #ffeae6;
+#empresa,
+#revenda {
+    background-color: #f0f0f0;
 }
 
 .text-colored {
-    color: #e15f41
+    color: #FF0000
 }
 
-.nav-cardapio .nav-link.active,
+.nav-revenda .nav-link.active,
 #fale-conosco button {
-    background-color: #e15f41;
+    background-color: #000000;
     color: #fff;
 }
 
-.nav-cardapio .nav-link:hover {
-    color: #e15f41
+.nav-revenda .nav-link:hover {
+    color: #000000
 }
 
 .social-links li {
@@ -70,3 +67,4 @@
         height: 200px;
     }
 }
+
