@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top Cars Tauras</title>
+    <title>Document</title>
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="main.css">
@@ -16,25 +16,28 @@
 
 <body>
     <!-- navbar -->
-    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-3">
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
         <div class="container">
-            <h1 class="navbar-brand m-0 section-title fs-3">Top Cars Tauras</h1>
+            <h1 class="navbar-brand m-0 section-title">Nome do restaurante</h1>
             <button class="navbar-toggler mb-md-3" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw-bold">
-                        <a href="#empresa" class="nav-link mt-2 mt-md-0"><i class="bi bi-house-door me-1"></i>Sobre a empresa</a>
+                        <a href="#sobre-o-restaurante" class="nav-link mt-2 mt-md-0 mt-lg-0">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o restaurante
+                        </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#servicos" class="nav-link">Alguns Serviços</a>
+                        <a href="#eventos" class="nav-link">Eventos</a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#revenda" class="nav-link">Nossa Revenda</a>
+                        <a href="#cardapio" class="nav-link">Nosso cardápio</a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#contato" class="nav-link">Fale conosco</a>
+                        <a href="#fale-conosco" class="nav-link">Fale conosco</a>
                     </li>
                 </ul>
             </nav>
@@ -43,18 +46,18 @@
     <!-- navbar -->
 
     <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
-        <section id="empresa">
+        <section id="sobre-o-restaurante">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
-                        <img src="images/slides/slide1.jpg" alt="Foto do espaço interno da empresa"
+                        <img src="images/slides/slide1.png" alt="Foto do espaço interno do restaurante"
                             class="d-block w-100">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="images/slides/slide2.jpg" alt="Duas taças de vinho" class="d-block w-100">
+                        <img src="images/slides/slide2.png" alt="Duas taças de vinho" class="d-block w-100">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="images/slides/slide3.jpg" alt="Uma mesa com comida" class="d-block w-100">
+                        <img src="images/slides/slide3.png" alt="Uma mesa com comida" class="d-block w-100">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -73,10 +76,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5">
-                            <img src="images/empresa.jpg" class=" w-100 rounded" alt="">
+                            <img src="images/restaurante.jpg" class="d-block w-100 rounded" alt="">
                         </div>
                         <div class="col-md-7 mt-3 mt-md-0">
-                            <h2 class="section-title">Sobre <span class="text-colored">a empresa</span></h2>
+                            <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quidem, dolor ea quibusdam
                                 laboriosam, minus voluptatibus reprehenderit id maxime consequuntur nesciunt expedita
@@ -99,20 +102,19 @@
             </div>
         </section>
 
-        <!-- serviços -->
+        <!-- eventos -->
 
-        <section id="servicos" class="pt-5 pb-5">
+        <section id="eventos" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title text-center">Alguns <span class="text-colored">serviços prestados</span>
-                    </h2>
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
                 </div>
                 <div class="row mt-4">
                     <div class="col-md-4">
-                        <img src="images/servicos/alinhamento.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <img src="images/eventos/aniversario.jpg" alt="" class="d-block w-100 rounded mb-2">
                         <h3 class="section-title text-colored fs-4">
-                            <i class="bi bi-car-front-fill"></i>
-                            Alinhamento
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversários
                         </h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab vero minima, voluptas a quo
@@ -121,10 +123,10 @@
                         </p>
                     </div>
                     <div class="col-md-4">
-                        <img src="images/servicos/revisao.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <img src="images/eventos/casamento.jpg" alt="" class="d-block w-100 rounded mb-2">
                         <h3 class="section-title text-colored fs-4">
-                            <i class="bi bi-card-checklist"></i>
-                            Revisão</h3>
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Recepção para casamentos</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab vero minima, voluptas a quo
                             libero explicabo dolore vitae tempore ea, aliquam est. Quia nesciunt iusto incidunt aliquam!
@@ -132,10 +134,10 @@
                         </p>
                     </div>
                     <div class="col-md-4">
-                        <img src="images/servicos/tunagem.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <img src="images/eventos/confraternizacoes.jpg" alt="" class="d-block w-100 rounded mb-2">
                         <h3 class="section-title text-colored fs-4">
-                            <i class="bi bi-car-front"></i>
-                            Tunagem</h3>
+                            <i class="bi bi-people-fill"></i>
+                            Confraternizações</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab vero minima, voluptas a quo
                             libero explicabo dolore vitae tempore ea, aliquam est. Quia nesciunt iusto incidunt aliquam!
@@ -146,351 +148,171 @@
             </div>
         </section>
 
-        <!-- serviços -->
+        <!-- eventos -->
 
-        <!-- nossa revenda -->
+        <!-- cardapio -->
 
-        <section id="revenda" class="pt-5 pb-5">
+        <section id="cardapio" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title text-center mb-5">Nossa <span class="text-colored">Revenda</span></h2>
+                    <h2 class="section-title text-center mb-5">Nosso <span class="text-colored">cardápio</span></h2>
                 </div>
                 <div class="row">
-                    <aside class="col-md-2 mb-4 mb-md-0">
-                        <nav class="nav nav-revenda nav-pills d-md-block w-100">
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#segmento-a-citadinos"
-                                class="fw-bold text-start nav-link text-colored active">Citadinos</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#segmento-b-utilitarios"
-                                class="fw-bold text-start nav-link text-colored">Utilitários</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#segmento-c-compactos"
-                                class="fw-bold text-start nav-link text-colored">Compactos</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#segmento-d-familiares"
-                                class="fw-bold text-start nav-link text-colored">Familiares</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#segmento-e-executivos"
-                                class="fw-bold text-start nav-link text-colored">Executivos</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#segmento-f-luxo"
-                                class="fw-bold text-start nav-link text-colored">Luxo</button>
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-collumn nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool"
+                                class="fw-bold text-start nav-link text-colored active">Bebidas não
+                                Alcólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas"
+                                class="fw-bold text-start nav-link text-colored">Bebidas
+                                alcólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas"
+                                class="fw-bold text-start nav-link text-colored">Entradas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais"
+                                class="fw-bold text-start nav-link text-colored">Pratos
+                                principais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas"
+                                class="fw-bold text-start nav-link text-colored">Sobremesas</button>
                         </nav>
                     </aside>
                     <div class="col-md-10">
                         <div class="tab-content">
-                            <div class="tab-pane active" id="segmento-a-citadinos">
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
                                 <div class="row">
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoA/FIAT 500.webp"
-                                                alt="Fiat 500">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Fiat 500</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/coca-cola.jpg"
+                                            alt="Coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoA/OPEL CORSA.jpg"
-                                                alt="Opel Corsa">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Opel Corsa</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/suco.jpg" alt="Suco">
+                                        <h5 class="text-colored fw-bold mt-2">Suco de laranja</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoA/FIAT 500.webp"
-                                                alt="Fiat 500">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Fiat 500</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/coca-cola.jpg"
+                                            alt="Coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoA/OPEL CORSA.jpg"
-                                                alt="Opel Corsa">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Opel Corsa</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/coca-cola.jpg"
+                                            alt="Coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/coca-cola.jpg"
+                                            alt="Coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/coca-cola.jpg"
+                                            alt="Coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="segmento-b-utilitarios">
+                            <div class="tab-pane" id="bebidas-alcoolicas">
                                 <div class="row">
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoB/BMW 116.jpg"
-                                                alt="BMW 116">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">BMW 116 Preta</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/cerveja.jpg"
+                                            alt="Cerveja">
+                                        <h5 class="text-colored fw-bold mt-2">Cerveja</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoB/BMW 116.webp"
-                                                alt="BMW 116">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">BMW 116 Branca</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/vinho.jpg" alt="Vinho">
+                                        <h5 class="text-colored fw-bold mt-2">Vinho</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="segmento-c-compactos">
+                            <div class="tab-pane" id="entradas">
                                 <div class="row">
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top"
-                                                src="images/revenda/segmentoC/2015-03-09-fiat-500.webp" alt="Fiat 500">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Fiat 500 Vermelha</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/entradas/entrada.jpg"
+                                            alt="Nome da entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoC/fiat-500-393.jpg"
-                                                alt="Fiat 500">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Fiat 500 Preta</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/entradas/entrada.jpg"
+                                            alt="Nome da entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/entradas/entrada.jpg"
+                                            alt="Nome da entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/entradas/entrada.jpg"
+                                            alt="Nome da entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Nome da entrada</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="segmento-d-familiares">
+                            <div class="tab-pane" id="pratos-principais">
                                 <div class="row">
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoD/BMW Série 2.jpg"
-                                                alt="BMW Série 2">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">BMW Série 2</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/pratos/pizza.jpg" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoD/Dacia Lodgy.jpg"
-                                                alt="Dacia Lodgy">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Dacia Lodgy</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/pratos/salmao.jpg" alt="Salmão">
+                                        <h5 class="text-colored fw-bold mt-2">Salmão</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top"
-                                                src="images/revenda/segmentoD/Mitsubishi Outlander.jpg"
-                                                alt="Mitsubishi Outlander">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Mitsubishi Outlander</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/pratos/pizza.jpg" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/pratos/salmao.jpg" alt="Salmão">
+                                        <h5 class="text-colored fw-bold mt-2">Salmão</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/pratos/pizza.jpg" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/pratos/salmao.jpg" alt="Salmão">
+                                        <h5 class="text-colored fw-bold mt-2">Salmão</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="segmento-e-executivos">
+                            <div class="tab-pane" id="sobremesas">
                                 <div class="row">
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoE/Civic Sedan.webp"
-                                                alt="Civic Sedan">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Civic Sedan</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/sobremesas/bolo.jpg" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoE/Peugeot 508.webp"
-                                                alt="Peugeot 508">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Peugeot 508</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoE/Audi A6.webp"
-                                                alt="Audi A6">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Audi A6</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoE/Volvo XC60.jpg"
-                                                alt="Volvo XC60">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Volvo XC60</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="segmento-f-luxo">
-                                <div class="row">
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoF/aston-martin.webp"
-                                                alt="Aston martin">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Aston martin</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoF/bugatti.webp"
-                                                alt="Bugatti">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Bugatti</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoF/ferrari.webp"
-                                                alt="Ferrari">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Ferrari</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoF/jaguar.webp"
-                                                alt="Jaguar">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Jaguar</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-3 mb-2">
-                                        <div class="card h-100">
-                                            <img class="card-img-top" src="images/revenda/segmentoF/Lamborghini.webp"
-                                                alt="Lamborghini">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-colored fw-bold">Lamborghini</h5>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                    elit.</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <span class="fw-bold">Preço</span> 10,000.00 Euros
-                                            </div>
-                                        </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/sobremesas/cupcake.jpg"
+                                            alt="Cupcake">
+                                        <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
         </section>
-
-        <!-- nossa revenda -->
+        <!-- cardapio -->
         <!-- fale conosco  -->
-
-        <section id="contato" class="pt-5 pb-5">
+        <section id="fale-conosco" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
                     <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
@@ -554,11 +376,10 @@
                     </div>
                 </div>
             </div>
-
         </section>
-    </div>
+        <!-- fale conosco  -->
 
-    <!-- fale conosco  -->
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="./js/jquery.mask.min.js"></script>
@@ -579,7 +400,7 @@
 
                 },
                 messages: {
-                    nome: "Por favor insira seu nome",
+                    nome: "Por favor insira seu nome", 
                     email: "Por favor insira seu e-mail",
                     mensagem: "Por favor digite uma mensagem"
                 },
